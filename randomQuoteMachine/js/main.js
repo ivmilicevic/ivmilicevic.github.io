@@ -25,7 +25,7 @@ function getColor() {
 function getQuote() {
     let xhr = new XMLHttpRequest();
     // Adds random number at the end to prevent caching
-    xhr.open('GET', 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&q=' + Math.floor(Math.random() * 1000000));
+    xhr.open('GET', 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&q=' + Math.floor(Math.random() * 1000000));
 
     xhr.onload = function() {
         if (this.status == 200) {
