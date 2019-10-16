@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+=<html>
+  <head>
+    <title>Coming Soon</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>www.leonardophoenix.com</h1>
+          <p>coming soon...</p>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" class="icon brands fa-linkedin-in"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-dribbble"
+                  ><span class="label">Dribbble</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-behance"
+                  ><span class="label">Behance</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <p>Feel free to contact me at: leonardophoenixd@gmail.com</p>
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function() {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function() {
+        return false;
+      };
+      window.onorientationchange = function() {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>
